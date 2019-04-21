@@ -1,0 +1,2 @@
+后台登陆：http://localhost:8080/wlgw/login.jsp     admin   admin
+前台页面：http://localhost:8080/wlgw/qiantai/index.jsp   111   111
