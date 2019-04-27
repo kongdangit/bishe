@@ -88,6 +88,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<li class="thisclass">
 					<A href="#" onclick="liuyanAll()">我要留言</A>
 				</li>
+				<li class="thisclass">
+				<div style="background:url(img/admin.png) no-repeat;width:35px;height:35px;position:absolute;right:0" onclick="window.open('<%=path %>/login.jsp','_blank')">
+				</div>
+				</li>
 			</ul>
 		</div>
 		<form id="searchForm" action="<%=path %>/goodSearch.action" method="post">

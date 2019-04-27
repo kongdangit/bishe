@@ -38,11 +38,11 @@ a.channel:active {color: #000000;}
 
 
 .topsearch{height:37px;	width:100%; margin-top:3px; border-right:1px solid #EEE; background:url(../img/topsearch_bg.gif) repeat-x; overflow:hidden; margin:0px auto;}
-.topsearch .title{height:37px;width:83px;float:left;background:url(../img/topsearch_title.gif) left center no-repeat;}
+.topsearch .title{height:37px;width:83px;float:left;background:url(../img/search.jpg) left center no-repeat;}
 #page_search_left{width:220px;float:left; text-align:center;padding-top:8px;}
 #page_search_btn{width:80px;float:left;padding-top:8px;}
 #page_search_right{width:170px; height:33px;line-height:33px; float:right; text-align:center;}
-.topsearch .inputText{height:16px;width:200px;border-width:1px;border-style:solid;border-color:#808080 #D4D0C8 #D4D0C8 #808080;}
+.topsearch .inputText{height:20px;width:200px;border-width:1px;border-style:solid;border-color:#808080 #D4D0C8 #D4D0C8 #808080;}
 .topsearch .hots{height:33px;line-height:33px;float:left;}
 
 
