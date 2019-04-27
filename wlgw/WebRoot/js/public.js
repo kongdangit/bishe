@@ -17,7 +17,7 @@ function openWin(f, n, w, h, s)
 		//openwin.opener = self;
 	//openwin.focus();
 	//return openwin;
-    var result=window.showModalDialog(f,n,"dialogHeight:"+h+";dialogWidth:"+w+";"+s);
+    var result=window.open(f,n,"dialogHeight:"+h+";dialogWidth:"+w+";"+s);
     if(result==true)
     {
     	window.location.reload(true);
