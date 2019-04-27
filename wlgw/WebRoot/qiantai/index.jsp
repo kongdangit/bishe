@@ -159,7 +159,7 @@
 							用户登录
 						</div>
 						<div class="list_content">
-							<div id="div">
+							<div id="div" style="height:155px">
 								<jsp:include flush="true" page="/qiantai/userlogin/userlogin.jsp"></jsp:include>
 							</div>
 						</div>

@@ -63,7 +63,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-        <center><img src="<%=path %>/img/banner.jpg" width="966"></center>
+        <center><img src="<%=path %>/img/banner.jpg" width="100%"></center>
 		<div class="topmenu cbody1">
 			<ul>
 				<li class="thisclass">
