@@ -6,7 +6,7 @@ String path = request.getContextPath();
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html> 
   <head>
-    <title>My JSP 'index.jsp' starting page</title>
+    <title>后台管理</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -21,9 +21,9 @@ String path = request.getContextPath();
 	}
 	</style>
   </head>
-  <frameset rows="60,*" cols="*" frameborder="no" border="0" framespacing="0">
+  <frameset rows="120,*" cols="*" frameborder="no" border="0" framespacing="0">
 	  <frame src="<%=path %>/admin/top.jsp" name="topFrame" scrolling="no">
-	  <frameset cols="180,*" name="btFrame" frameborder="NO" border="0" framespacing="0">
+	  <frameset cols="200,*" name="btFrame" frameborder="NO" border="0" framespacing="0">
 	    <frame src="<%=path %>/admin/menu.jsp" noresize name="menu" scrolling="yes">
 	    <frame src="<%=path %>/admin/index/sysPro.jsp" noresize name="main" scrolling="yes">
 	  </frameset>

@@ -53,19 +53,19 @@ String path = request.getContextPath();
   </head>
   
   <body bgColor='#ffffff' style="margin: 0;padding: 0">
-	<table width="100%" border="0" cellpadding="0" cellspacing="0" background="<%=path %>/images/topbg.gif">
+	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="<%=path %>/img/banner.jpg">
 	  <tr>
-	    <td width='50%' height="60" style="font-size:26px; font-weight: bold;">&nbsp;&nbsp;轮滑滑具销售系统</td>
+	    <td width='50%' height="60" style="font-size:26px; font-weight: bold;">&nbsp;&nbsp;</td>
 	    <td width='50%' align="right">
 	    	<table width="750" border="0" cellspacing="0" cellpadding="0">
 		      <tr>
-			      <td align="right" height="26" style="padding-right:10px;line-height:26px;font-size:17px">
-			        	<font style="font-size:16px; font-weight: bold;">
-			        	    您好：<s:property value="#session.admin.userName"/>&nbsp;&nbsp;&nbsp;&nbsp;
+			      <td align="right" height="26" style="padding-right:10px;line-height:26px;padding-top:75px">
+			        	<font style="font-size:20px; font-weight: bold;">
+			        	    您好：<s:property value="#session.admin.userName"/>&nbsp;&nbsp;
 			        	</font>
 			        	<!--  [<a href="" target="_blank">网站主页</a>]-->
-			        	[<a href="#" onClick="logout()">注销退出</a>]
-						[<a href="javascript:ChangeMenu(0);">显示主框架</a>]
+			        	<a href="#" onClick="logout()">退出系统</a>
+						<a href="javascript:ChangeMenu(0);">隐藏菜单</a>
 			      </td>
 	          </tr>
 	        </table>

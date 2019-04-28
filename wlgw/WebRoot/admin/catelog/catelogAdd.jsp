@@ -22,7 +22,7 @@ String path = request.getContextPath();
         </script>
 	</head>
 
-	<body leftmargin="2" topmargin="9" background='<%=path %>/images/allbg.gif'>
+	<body leftmargin="2" topmargin="9" >
 			<form action="<%=path %>/catelogAdd.action" name="formAdd" method="post">
 				     <table width="98%" align="center" border="0" cellpadding="4" cellspacing="1" bgcolor="#CBD8AC" style="margin-bottom:8px">
 						<tr bgcolor="#EEF4EA">

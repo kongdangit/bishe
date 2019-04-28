@@ -26,11 +26,11 @@ String path = request.getContextPath();
 		 padding:0px;
 		 margin:auto;
 		 text-align:center;
-		 background-color:#9ad075;
+		 background-color:gainsboro;;
 		}
 		
 		dl.bitem {
-			width:148px;
+			width:167px;
 			margin:0px 0px 5px 4px;
 		}
 		
@@ -94,7 +94,7 @@ String path = request.getContextPath();
   <body target="main">
 	<table width='99%' height="100%" border='0' cellspacing='0' cellpadding='0'>
 	  <tr>
-	    <td style='padding-left:3px;padding-top:8px' valign="top">
+	    <td style='padding-left:8px;padding-top:8px' valign="top">
 		  <!-- 1 -->
 	      <dl class='bitem'>
 	        <dt onClick='showHide("items1_1")'><b>基本操作</b></dt>
@@ -140,8 +140,8 @@ String path = request.getContextPath();
 	      <!-- 1 -->
 	      <!-- 1 -->
 	      <dl class='bitem'>
-	        <dt onClick='showHide("items6_1")'><b>财务管理</b></dt>
-	        <dd style='display:block' class='sitem' id='items6_1'>
+	        <dt onClick='showHide("items99_1")'><b>财务管理</b></dt>
+	        <dd style='display:block' class='sitem' id='items99_1'>
 	          <ul class='sitemu'>
 	             <li><a href='<%=path %>/goodsKucun.action' target='main'>库存管理</a> </li>
 	             <li><a href='<%=path %>/caiwuMana.action' target='main'>财务统计</a> </li>
@@ -150,14 +150,14 @@ String path = request.getContextPath();
 	      </dl>
 	      <!-- 1 -->
 	      <!-- 1 -->
-	      <dl class='bitem'>
+	      <%-- <dl class='bitem'>
 	        <dt onClick='showHide("items99_1")'><b>安全退出系统</b></dt>
 	        <dd style='display:block' class='sitem' id='items99_1'>
 	          <ul class='sitemu'>
 	            <li><a href='#' onclick='javascript:window.parent.location="<%=path %>/login.jsp"'>安全退出系统</a></li>
 	          </ul>
 	        </dd>
-	      </dl>
+	      </dl> --%>
 	      <!-- 1 -->
 		</td>
 	  </tr>

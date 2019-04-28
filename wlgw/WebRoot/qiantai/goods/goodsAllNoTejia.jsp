@@ -10,6 +10,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<title>新品上市</title>
 		<meta http-equiv="pragma" content="no-cache" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -44,7 +45,7 @@
 			<div class="page_main_msg left">		
 		        <div class="left_row">
 		            <div class="list pic_news">
-		  	                <div class="list_bar">&nbsp;特价区</div>
+		  	                <div class="list_bar">&nbsp;新品上市</div>
 						  	<table width="99%" border="0" cellpadding="2" cellspacing="1" bgcolor="#FFFFFF" align="center" style="margin-top:8px">
 					              <tr align="center" bgcolor="#FAFAF1" height="22">
 					                  <td>商品名称</td>
@@ -113,9 +114,5 @@
 			<div style="clear: both"></div>
 			<!-- 右边的用户登录。留言。投票 -->
 		</div>
-		
-		<div class="foot">
-		   <jsp:include flush="true" page="/qiantai/inc/incFoot.jsp"></jsp:include>
-	    </div>
 	</body>
 </html>

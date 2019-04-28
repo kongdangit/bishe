@@ -96,9 +96,5 @@
 			<div style="clear: both"></div>
 			<!-- 右边的用户登录。留言。投票 -->
 		</div>
-		
-		<div class="foot">
-		   <jsp:include flush="true" page="/qiantai/inc/incFoot.jsp"></jsp:include>
-	    </div>
 	</body>
 </html>

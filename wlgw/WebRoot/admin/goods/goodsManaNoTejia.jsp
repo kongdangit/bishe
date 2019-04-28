@@ -72,10 +72,11 @@ String path = request.getContextPath();
        </script>
 	</head>
 
-	<body leftmargin="2" topmargin="2" background='<%=path %>/images/allbg.gif'>
+	<body leftmargin="2" topmargin="2">
+		<div style="width:100%;height:400px;overflow:auto;">
 			<table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
 				<tr bgcolor="#E7E7E7">
-					<td height="14" colspan="9" background="<%=path %>/images/tbg.gif">&nbsp;&nbsp;</td>
+					<td height="14" colspan="9">&nbsp;&nbsp;在售商品管理</td>
 				</tr>
 				<tr align="center" bgcolor="#FAFAF1" height="22">
 					<td width="20%">名称</td>
@@ -107,7 +108,7 @@ String path = request.getContextPath();
 					     <s:property value="#goods.goodsShichangjia"/>
 					</td>
 					<td bgcolor="#FFFFFF" align="center">
-					     <s:if test="#goods.goodsIsnottejia=='no'">无特价&nbsp;&nbsp;&nbsp;
+					     <s:if test="#goods.goodsIsnottejia=='no'">无特价&nbsp;
 					         <a href="#" style="color: red" onclick="goodsShezhiTejia(<s:property value="#goods.goodsId"/>)">设为特价</a>
 					     </s:if>
 					     <s:if test="#goods.goodsIsnottejia=='yes'">
@@ -123,7 +124,7 @@ String path = request.getContextPath();
 				</tr>
 				</s:iterator>
 			</table>
-			
+		</div>
 			<table width='98%'  border='0'style="margin-top:8px;margin-left: 5px;">
 			  <tr>
 			    <td>

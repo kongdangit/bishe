@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	                var url="<%=path %>/qiantai/userinfo/userXinxi.jsp";
 	                var n="";
 	                var w="480px";
-	                var h="500px";
+	                var h="450px";
 	                var s="resizable:no;help:no;status:no;scroll:yes";
 				    openWin(url,n,w,h,s);
 	            </s:else>
@@ -75,10 +75,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<li class="thisclass">
 					<a href="<%=path %>/goodsAllNoTejia.action">新品上市</A>
 				</li>
-				
-				<li class="thisclass">
-					<A href="#" onclick="myXinxi()">我的信息</A>
-				</li>
 				<li class="thisclass">
 					<A href="#" onclick="myCart()">我的购物商品</A>
 				</li>
@@ -87,6 +83,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</li>
 				<li class="thisclass">
 					<A href="#" onclick="liuyanAll()">我要留言</A>
+				</li>
+				<li class="thisclass">
+					<A href="#" onclick="myXinxi()">我的信息</A>
 				</li>
 				<li class="thisclass">
 				<div style="background:url(img/admin.png) no-repeat;width:35px;height:35px;position:absolute;right:0" onclick="window.open('<%=path %>/login.jsp','_blank')">

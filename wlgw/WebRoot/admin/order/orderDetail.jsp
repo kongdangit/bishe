@@ -9,9 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html> 
   <head>
     <base href="<%=basePath%>">
-    
-    <title>My JSP 'orderDetail.jsp' starting page</title>
-    
+    <title>订单明细</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
