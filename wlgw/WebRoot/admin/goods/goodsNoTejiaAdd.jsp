@@ -144,7 +144,7 @@ String path = request.getContextPath();
 						</tr>
 						<tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='red';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22">
 						    <td width="25%" bgcolor="#FFFFFF" align="right">
-						         特格：
+						         特价：
 						    </td>
 						    <td width="75%" bgcolor="#FFFFFF" align="left">
 						        <input type="text" name="goodsTejia" size="20" value="0" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>

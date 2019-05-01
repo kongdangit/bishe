@@ -72,7 +72,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		    </s:if>
 		    <s:else>
 		        <br/>
-			     欢迎您：<s:property value="#session.user.userName"/> &nbsp;&nbsp;&nbsp;&nbsp;
+			     <s:property value="#session.user.userName"/>欢迎您登陆本系统 &nbsp;&nbsp;&nbsp;&nbsp;
 			    <a href="<%=path %>/userLogout.action">安全退出</a> &nbsp;&nbsp;&nbsp;&nbsp;
 			    <br/><br/><br/>
 			</s:else>

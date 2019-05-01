@@ -86,9 +86,9 @@ String path = request.getContextPath();
 						</td>
 						<td bgcolor="#FFFFFF">
 							&nbsp;
-							<input type="radio" name="userSex" value="男" checked="checked"/>男
+							<input type="radio" name="userSex" value="男"/>男
 							&nbsp;&nbsp;&nbsp;&nbsp;
-							<input type="radio" name="userSex" value="女"/>女
+							<input type="radio" name="userSex" value="女" checked="checked"/>女
 						</td>
 					</tr>
 					<tr>

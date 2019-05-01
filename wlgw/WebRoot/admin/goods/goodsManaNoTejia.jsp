@@ -50,7 +50,7 @@ String path = request.getContextPath();
            {
                 var pop=new Popup({ contentType:1,isReloadOnClose:false,width:400,height:200});
 	            pop.setContent("contentUrl","<%=path %>/admin/goods/goodsShezhiTejia.jsp?goodsId="+goodsId);
-	            pop.setContent("title","文件上传");
+	            pop.setContent("title","设置特价");
 	            pop.build();
 	            pop.show();
            }
