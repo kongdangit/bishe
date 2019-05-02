@@ -17,7 +17,7 @@
 function closewindow(){
 	window.returnValue=false;
 	window.close();
-	window.location.href="http://localhost:8080/wlgw/qiantai/index.jsp";
+	window.location.href="http://localhost:8080/wlgw/qiantai/default.jsp";
 }
 function clock()
 {
@@ -31,7 +31,7 @@ function clock()
 	else
 	{
 		closewindow();
-		window.location.href="http://localhost:8080/wlgw/qiantai/index.jsp";
+		window.location.href="http://localhost:8080/wlgw/qiantai/default.jsp";
 	}
 }
 

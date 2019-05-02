@@ -7,6 +7,7 @@ String path = request.getContextPath();
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 	    <base target="_self"/>
+	    <title>用户注册</title>
 		<meta http-equiv="pragma" content="no-cache" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
