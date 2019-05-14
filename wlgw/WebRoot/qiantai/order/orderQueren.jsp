@@ -10,6 +10,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+		<title>订单确认</title>
 		<meta http-equiv="pragma" content="no-cache" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -70,7 +71,7 @@
 					                  <td>
 		   		                          <select name="odderFukuangfangshi" style="width:155px;">
 		   		                               <option value="货到付款">货到付款</option>
-		   		                               <option value="银行付款">银行付款</option>
+		   		                               <option value="网上银行付款">网上银行付款</option>
 		   		                          </select>
 		                              </td>
 					              </tr>

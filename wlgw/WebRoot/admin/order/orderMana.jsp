@@ -58,7 +58,7 @@ String path = request.getContextPath();
 	<body leftmargin="2" topmargin="2">
 			<table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
 				<tr bgcolor="#E7E7E7">
-					<td height="14" colspan="7">&nbsp;&nbsp;</td>
+					<td height="14" colspan="7">&nbsp;&nbsp;订单管理</td>
 				</tr>
 				<tr align="center" bgcolor="#FAFAF1" height="22">
 					<td width="8%">用户ID</td>
